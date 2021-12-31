@@ -1,0 +1,29 @@
+spring:
+  jpa:
+    open-in-view: false
+    properties:
+      org:
+        hibernate:
+          envers:
+            audit_table_suffix: _history
+  profiles.active: local
+
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+
+gifted:
+  security:
+    username: user
+    password: password
+
+  app:
+    api-key: some-value
+
+logging:
+  level:
+    root: INFO
+
+
+

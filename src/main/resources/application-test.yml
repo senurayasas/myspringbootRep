@@ -1,0 +1,7 @@
+gifted:
+  security:
+    username: user
+    password: password
+
+  app:
+    api-key: test-key

@@ -1,0 +1,3 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${DATASOURCE_HOST}:${DATABASE_PORT}/${DATABASE_NAME}

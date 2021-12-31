@@ -1,0 +1,10 @@
+gifted:
+  app:
+    users:
+      - username: user
+        password: pass
+        role: USER
+
+  persistence:
+    encryption:
+      secret: not-secret-aes-needs-long-12345a
