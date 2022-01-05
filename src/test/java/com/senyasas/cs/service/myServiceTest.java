@@ -1,14 +1,14 @@
 package com.senyasas.cs.service;
 
-import com.senyasas.cs.model.api.request.my.myRequest;
 import com.senyasas.cs.model.entity.my;
 import com.senyasas.cs.model.mapping.myMapper;
 import com.senyasas.cs.repository.myRepository;
 import org.mapstruct.factory.Mappers;
 
-import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 class myServiceTest {
 
@@ -19,9 +19,9 @@ class myServiceTest {
     //@Test
     void method_name__conditions__expected_outcome() {
         //Given
-        final var request = myRequest.builder()
+        /*final var request = myRequest.builder()
                 .input("sample text")
-                .build();
+                .build();*/
 
         when(myRepository.save(any()))
                 .thenAnswer(a -> a.getArgument(0));

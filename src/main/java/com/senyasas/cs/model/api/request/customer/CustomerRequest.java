@@ -1,7 +1,6 @@
-package com.senyasas.cs.model.api.request.my;
+package com.senyasas.cs.model.api.request.customer;
 
 import lombok.Builder;
-import lombok.Getter;
 import lombok.extern.jackson.Jacksonized;
 
 import javax.validation.constraints.NotNull;

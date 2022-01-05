@@ -1,11 +1,11 @@
 package com.senyasas.cs.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.senyasas.cs.model.api.request.my.CustomerRequest;
+import com.gifted.test.FixturesHelper;
+import com.senyasas.cs.model.api.request.customer.CustomerRequest;
 import com.senyasas.cs.model.entity.CustomerModel;
 import com.senyasas.cs.model.mapping.CustomerMapper;
 import com.senyasas.cs.repository.CustomerRepository;
-import com.gifted.test.FixturesHelper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

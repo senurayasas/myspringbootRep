@@ -1,6 +1,6 @@
 package com.senyasas.cs.model.mapping;
 
-import com.senyasas.cs.model.api.request.my.CustomerRequest;
+import com.senyasas.cs.model.api.request.customer.CustomerRequest;
 import com.senyasas.cs.model.api.response.my.CustomerResponse;
 import com.senyasas.cs.model.entity.CustomerModel;
 import org.mapstruct.Mapper;
