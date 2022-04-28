@@ -1,5 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:mysql://mysql-standalone:3306/my_spring_db?useSSL=false
-    username: testuser
-    password: testuser@123
